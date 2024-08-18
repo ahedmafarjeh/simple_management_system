@@ -1,0 +1,90 @@
+body{
+    background-color: #222;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.system{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+input {
+    background-color: #111;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+}
+.price input{
+    background-color: #111;;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin-right: 5px;
+    padding: 5px;
+    
+}
+#total{
+    
+    background-color: red;
+    border-radius: 5px;
+    height: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+#total::before{
+    content: "Total: ";
+}
+input:focus{
+    transform: scale(1.1);
+    background-color: black;
+
+}
+button{
+    background-color: rgb(121, 25, 210);
+    width: 100%;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(85, 5, 159);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.output_bt{
+       
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+    margin-bottom: 10px;
+    
+}
+.output_bt button{
+    width: 40%;
+}
+
+table{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+th,td {
+    padding: 5px;
+}
+#dltbtn{
+    display: none;
+}
